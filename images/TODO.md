@@ -1,0 +1,6 @@
+- [ ] Restructure HTML: Add proper <head> tag and move <meta> and <title> inside it, remove extra <body> opening.
+- [ ] Fix title: Remove invalid <br> from title.
+- [ ] Remove duplicate CSS styles in @keyframes floatUp.
+- [ ] Fix missing < in img tag in Page 10.
+- [ ] Properly close <p> tags in Pages 11 and 12.
+- [ ] Correct <scrip> to <script>.

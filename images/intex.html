@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HAPPY BIRTHDAY SUPRISE CHEERS TO 22 DEAR</title>
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI', 'Times New Roman', Times, serif;
+    background:linear-gradient(to right,#ffd6e8,#ffeaea);
+    text-align:center;
+}
+.page{
+    display:none;
+    height:100vh;
+    padding:40px;
+    animation:fade 1.2s;
+}
+
+.active{display:block;}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    background:#ff5c8d;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin:10px;
+}
+
+button:hover{background:#ff2f70;}
+
+.back-btn{
+    background:#aaa;
+}
+
+.back-btn:hover{
+    background:#888;
+}
+
+img{
+    width:220px;
+    border-radius:15px;
+    margin:15px;
+}
+
+@keyframes fade{
+    from{opacity:0; transform:scale(0.95);}
+    to{opacity:1; transform:scale(1);}
+}
+
+h1{color:#ff2f70;}
+p{font-size:18px; color:#444;}
+/* ❤️ FLOATING HEARTS ❤️ */
+.heart{
+    position:fixed;
+    bottom:-20px;
+    color:red;
+    font-size:20px;
+    animation:floatUp linear forwards;
+    pointer-events:none;
+    z-index:9999;
+    opacity:0.8;
+}
+
+@keyframes floatUp{
+    0%{transform:translateY(0) scale(0.8); opacity:1;}
+    100%{transform:translateY(-120vh) scale(1.4); opacity:0;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active">
+    <h1>🎂 Hey Love 💕</h1>
+    <p>Someone special is waiting for a surprise...</p>
+    <img src="glo 9.jpg"><br>
+    <button onclick="next()">Click to Begin 💖</button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+    <h1>🌸 BIRTHDAY GURL 🌸</h1>
+    <img src="glo 3.jpg">
+<img src="glo 8.jpg">
+<img src="glo 4.jpg"><br>
+  <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Next ✨</button>
+</div>
+
+
+<!-- PAGE 3 -->
+<div class="page">
+    <h1>🌸 About Her 🌸</h1>
+    <p><b>Name:</b> <i>Gopika PM</i></p>
+    <p><b>Birthday:</b> <i>25/01/2004</i></p>
+    <p></p><b>Hobbies</b>
+        <p></p>Flexing her moves through dancing skills<b></b> 
+        <p></p>Exciting personality in reading psyco thrillers<b></b>
+        <p></p>An Amazing editor that makes videos filled with emotions and happiness
+        <p></p>An extraordinary talented girl with her drawings    
+  <p></p>  <img src="draw.jpg">
+  <img src="dda.jpg">
+  <img src="glo 2.jpg"><br>
+    <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Next ✨</button>
+</div>
+
+
+<!-- PAGE 3 -->
+<div class="page">
+    <h1>💖 Her Favorites 💖</h1>
+    <p>🌈 Color: Pruple girl</p>
+    <p>🎵 Music: Meants towards korean , english and old classic</p>
+    <p>🍫 Food: Everything that feels her happiness</p>
+    📸 Moments of us:The day u called me from back on spot allotment</p>
+    <img src="dda2.jpg">
+    <img src="glo 1.jpg"><br>
+    <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">More Memories 💫</button>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page">
+    <h1>👨‍👩‍👧‍👦 Family & College 💕</h1>
+    <p></p>Her strength Her smile. Her support system.
+    <p></p> The luckiest family where there is a lovable and friendly Mom,
+    where there is a sweet and cool dad and also a cute sissy more like a frnd ...yes also a cool brother now !!
+    <p></p>Her frnd circle where she meets her true pride ,
+    <p></p>where she explores her talents with a dance partner meeralal 
+    <p></p>where she mades cute momets more memorable with anaghu her lil sissy
+    <p></p>as a whole u have gotten a family in your college life<br>
+    <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Almost There 🌷</button>
+</div>
+
+
+<!-- PAGE 5 -->
+<div class="page">
+ <h1>🌟 SOME GOLDEN DAYS 🌟</h1>
+ <img src="last.jpg">
+  <img src="cc 4.jpg">
+   <img src="cc2.jpg">
+    <img src="cc 8.jpg">
+     <img src="cc3.jpg">
+    <img src="cc 5.jpg">
+ <img src="cc 6.jpg"><br>
+  <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Almost There 🌷</button>
+</div>
+
+
+<!-- PAGE 6 -->
+<div class="page">
+    <h1>🌟 Kalia Dolu and Bolu 🌟</h1>
+    <img src="kk.jpg">
+    <img src="kk 3.jpg">
+ <img src="kk 4.jpg"><br>
+  <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Almost There 🌷</button>
+</div>
+
+
+<!-- PAGE 7 -->
+<div class="page">
+    <h1>🌟 Blessings For You 🌟</h1>
+    <p>
+        May your smile always shine brighter than stars ✨<br>
+        May your dreams come true 💫<br>
+        May happiness follow you forever 🤍
+    </p>
+    <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Final Surprise 🎁</button>
+</div>
+
+<!-- PAGE 8 -->
+<div class="page">
+     <h1>🌟 with u 🌟</h1>
+<img src="us 2.jpg">
+<img src="us 4.jpg">
+<img src="us.jpg">
+ <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Almost There 🌷</button>
+</div>
+
+
+<!-- PAGE 9 -->
+<div class="page">
+     <h1>🌟 Bliss of laconic leal 🌟</h1>
+<img src="ll4.jpg">
+<img src="ll5.jpg">
+<img src="ll6.jpg">
+<img src="ll8.jpg">
+<img src="ll9.jpg">
+<img src="ll 11.jpg">
+<img src="ll 12.jpg">
+<img src="ll 15.jpg">
+<img src="ll 16.jpg">
+<img src="ll1.jpg">
+<img src="ll2.jpg">
+<img src="ll3.jpg">
+<img src="ll 14.jpg">
+<img src="ll7.jpg"><br>
+ <button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Final Surprise 🎁</button>
+</div>
+
+
+<!-- PAGE 10 -->
+<div class="page">
+    <h1>🎉 Your Page 🎉</h1>
+<img src="glo 5.jpg">
+<img src="glo 6.jpg">
+<img src="glo 7.jpg">
+<img src="glo 10.jpg">
+<img src="glo 11.jpg">
+<img src="glo 12.jpg">
+<img src="glo 13.jpg">
+<img src="glo 14.jpg">
+<img src="1st.jpg">
+<img src="glo 16.jpg"><br>
+<button class="back-btn" onclick="back()">⬅ Back</button>
+    <button onclick="next()">Final Surprise 🎁</button>
+</div>
+
+<!-- PAGE 11 -->
+<div class="page">
+    <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+    <p>
+        Dear <b>GLOW</b>,<br><br>
+        You are loved more than words can say 💕<br>
+        This day is as beautiful as your heart 💖<br><br>
+        Forever special. Forever you 🌸
+    </p>
+    <p>
+        one last message for u from me ...you  have always been the one with me <br>
+        actually u are something that cannot expressed in words<br>
+        you r something beyond that<br>
+        i always like u ..our silly talks ..moments ..little jokes..our nights as roomates ..etc <br>
+        all i will miss very badly<br>
+        you have always encouraged me for everything more like a sister<br>
+        you have always been a good listner too <br>
+        i am glad that i got one like u in my whole life  <br>
+        your enlightening voice when u sing<br>
+        your cute talks<br>
+        your smile with those rabbit teeths<br>
+        your creepy hearing <br>
+        all i love so much <br>
+        May god bless your life with all your dreams , happiness and moreover to be bold <br>
+        i dont know all these years that i have been with u that could even hold a place of happiness in your heart,<br>
+        but i had alwys tried to ...also will try my level best to be the part of your surroundings <br>
+        ONCE AGAIN ALL THE VERY BEST BIRTHDAY WISHES DEAR
+    </p>
+    <button class="back-btn" onclick="back()">⬅ Back</button>
+</div>
+
+<!-- PAGE 12 -->
+<div class="page">
+<h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+<p>
+Dear <b>GLOW</b>,<br><br>
+You are loved more than words can say 💕<br>
+Forever special. Forever you 🌸
+</p>
+<p>🎂🎈🎉</p>
+<button class="back-btn" onclick="back()">⬅ Back</button>
+</div>
+
+<!-- 🎂 CAKE POPUP -->
+<div id="cakePopup">
+  <div class="cake">
+    <div class="candle"><div class="flame"></div></div>
+    <div class="cake-top"></div>
+    <div class="cake-middle"></div>
+    <div class="cake-bottom"></div>
+  </div>
+</div>
+
+
+<script>
+let pages = document.querySelectorAll(".page");
+let index = 0;
+
+function next(){
+    if(index < pages.length - 1){
+        pages[index].classList.remove("active");
+        index++;
+        pages[index].classList.add("active");
+    }
+}
+
+function back(){
+    if(index > 0){
+        pages[index].classList.remove("active");
+        index--;
+        pages[index].classList.add("active");
+    }
+}
+
+
+/* ❤️ HEART GENERATOR ❤️ */
+function createHeart(){
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerHTML = "❤";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = Math.random() * 15 + 15 + "px";
+    heart.style.animationDuration = Math.random() * 3 + 4 + "s";
+    document.body.appendChild(heart);
+    setTimeout(()=>heart.remove(),7000);
+}
+setInterval(createHeart,150);
+
+</script>
+</body>
+</html>
